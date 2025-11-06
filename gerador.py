@@ -93,13 +93,13 @@ if st.button("Gerar Dados"):
     df = df.sort_values(df.columns[1]).reset_index(drop=True)
     st.dataframe(df, hide_index=True)
 
-csv= df.to_csv(index=False).encode("utf-8")
-
-st.download_button(
-    label="Baixar planilha",
-    data=csv,
-    file_name=f'dados_{area.lower()}.csv',
-    mime="text/csv"
-)
+    csv= df.to_csv(index=False).encode("utf-8")
+    
+    st.download_button(
+        label="Baixar planilha",
+        data=csv,
+        file_name=f'dados_{area.lower()}.csv',
+        mime="text/csv"
+    )
 
 
