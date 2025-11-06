@@ -9,7 +9,7 @@ st.title("Gerador de Fakers Avançado")
 
 # Escolhas iniciais
 area = st.selectbox("Escolha o tema:", ["Alunos", "Saúde"])
-qtd = st.slider("Quantas linhas quer gerar?", min_value=10, max_value=100, step=10, value=10)
+qtd = st.slider("Quantas linhas quer gerar?", min_value=10, max_value=1000, step=10, value=10)
 
 st.markdown("---")
 st.subheader("Campos personalizados")
