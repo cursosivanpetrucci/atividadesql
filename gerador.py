@@ -5,7 +5,7 @@ import random
 
 fake = Faker("pt_BR")
 
-st.title("Gerador de Fakers Avançado")
+st.title("Gerador de Bases para Testes - Ivan ")
 
 # Escolhas iniciais
 area = st.selectbox("Escolha o tema:", ["Alunos", "Saúde"])
