@@ -7,7 +7,7 @@ import unicodedata
 
 fake = Faker("pt_BR")
 
-st.title("🧩 Gerador de Fakers Avançado — com Dados Nulos e Sem Acentos")
+st.title("Gerador de Dados - Ivan")
 
 # Escolhas iniciais
 area = st.selectbox("Escolha o tema:", ["Alunos", "Saúde"])
