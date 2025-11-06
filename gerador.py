@@ -64,7 +64,7 @@ def gerar_dados(area, qtd, novos_campos):
                 "Data": fake.date_this_year(),
                 "Alunos": fake.name(),
                 "Nota": round(random.uniform(1, 10), 1),
-                "Disciplina": random.choice(["História", "Física", "Geografia"])
+                "Disciplina": random.choice(["Historia", "Fisica", "Geografia"])
             }
         elif area == "Saúde":
             linha = {
